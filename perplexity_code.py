@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Read data from the CSV file
-filename = r"C:\Users\shaha\Downloads\participant_task_matrix.csv"
+filename = r"C:\Users\shaha\Downloads\participant_matrix.csv"
 data = pd.read_csv(filename, index_col=0)
 
 # Normalize the data for each task (z-score)

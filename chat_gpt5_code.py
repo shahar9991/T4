@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 # === Path setup ===
-csv_path = r"C:\Users\shaha\Downloads\participant_task_matrix.csv"
+csv_path = r"C:\Users\shaha\Downloads\participant_matrix.csv"
   # File should be in the same folder as script
 out_dir = Path.cwd() / "rdm_outputs"
 out_dir.mkdir(exist_ok=True, parents=True)

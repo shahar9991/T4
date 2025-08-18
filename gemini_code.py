@@ -6,7 +6,7 @@ import os
 
 # 1. Read the CSV file containing the participant task data.
 # [cite_start]The data is already summarized into a single matrix where each row is a participant and each column is a task[cite: 3].
-file_path = r"C:\Users\shaha\Downloads\participant_task_matrix.csv"
+file_path = r"C:\Users\shaha\Downloads\participant_matrix.csv"
 df = pd.read_csv(file_path, index_col=0)
 
 # Clean the data by dropping any rows with missing values (NaN) if they exist.
